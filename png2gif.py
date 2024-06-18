@@ -48,7 +48,7 @@ def png2gif(dir_path, output_path="./anime.gif", size_magnification=1.0, transpa
     # 画像配列
     pictures = []
     # 指定されてパスからpngファイルを読み取りソート
-    pathes = glob.glob(dir_path + "*.png")
+    pathes = glob.glob(dir_path + "/*.png")
     pathes.sort(key=natural_keys)
     # 画像を表示させる時間の配列
     frames_num = []
