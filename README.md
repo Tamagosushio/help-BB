@@ -1,4 +1,4 @@
-# muho
+# help-BB
 BB素材や透過GIFの作成を補助します。
 ## Requirement
 - opencv-python     4.6.0.66
