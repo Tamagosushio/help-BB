@@ -15,6 +15,7 @@ pip3 install Pillow
 python3 mp42png.py ./hoge/fuga.mp4 -o ./hoge/fuga -t 30
 #
 # 生成された画像ファイルを透過する
+# 画像ファイルは生成時と同じく、"{順番}_{フレーム数}.png"としてください
 #
 python3 png2gif.py ./hoge/fuga -o ./hoge/fuga.gif -s 0.5 -t 127
 python3 png2mp4.py ./hoge/fuga -o ./hoge/bb_fuga.mp4 -c blue -t 63
